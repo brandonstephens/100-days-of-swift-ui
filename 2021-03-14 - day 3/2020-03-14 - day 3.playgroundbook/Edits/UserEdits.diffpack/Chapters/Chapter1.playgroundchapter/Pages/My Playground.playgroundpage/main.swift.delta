@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// https://www.hackingwithswift.com/100/swiftui/3
+
+import UIKit
+
+let first  = 12
+let second = 4
+
+let total = first + second
+let difference = first - second
+let product = first * second
+let divided = first / second
+let remainder = 13 % second
+
+//  operator overloading
+let meaing = 42
+let double = 42 + 42
+
+let fakers = "Fakers gonna "
+let action = fakers + "fake!"
+
+let firstHalf = ["John", "Paul"]
+let secondHalf = ["George", "Ringo"]
+let beatles = firstHalf + secondHalf 
+
+// compound assignment
+var score = 95
+score -= 5
+
+var quote = "The rain in Spain falls mainly on the "
+quote += "plains."
+
+// comparisons
+let firstScore = 6
+let secondScore = 4
+
+firstScore == secondScore
+firstScore != secondScore
+
+firstScore &lt; secondScore
+firstScore &gt;= secondScore
+
+"Stranger" &lt;= "Things"
+
+// conditions
+let firstCard = 10
+let secondCard = 11
+
+if firstCard + secondCard == 2 { 
+    print("Snake eyes!")
+} else if firstCard + secondCard == 21 {
+    print("Blackjack!")
+} else {
+    print("Nope")
+}
+
+// combining conditions
+let age1 = 12
+let age2 = 21
+
+if age1 &gt; 18 &amp;&amp; age2 &gt; 18 {
+    print("Old enough to party.")
+}
+
+if age1 &gt; 18 || age2 &gt; 18 {
+    print("Move along")
+}
+
+// ternary
+print(firstCard == secondCard ? "The same" : "Nope")
+
+// switch
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("Umbrella")
+case "snow":
+    print("Need a fire")
+case "sunny":
+    print("Here it comes")
+    fallthrough
+default:
+    print("nil")
+}
+
+// range
+let testScore = 85
+
+switch testScore {
+case 0..&lt;50:
+    print("Bad")
+case 50..&lt;85:
+    print("Ok")
+default:
+    print("Good")
+}
+
+11%6
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1580}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// https://www.hackingwithswift.com/sixty/2/1/arrays
+
+import UIKit
+
+let john = "John Lennon"
+let paul = "Paul McCartney"
+let george = "George Harrion"
+let ringo = "Ringo Starr"
+
+// arrays - ordered
+let beatles: [String] = [john, paul, george, ringo]
+print("\(beatles[1])")
+
+// sets - unique and unordered
+let colors = Set(["red", "green", "blue"])
+let colors2 = Set(["red", "green", "blue", "red", "blue"])
+print(colors)
+print(colors2)
+
+// tuples - fixed in size and type
+var name = (first: "Paul", last: "McCartney")
+print(name.0)
+print(name.last)
+
+// fixed collection or related values or precise naming
+let address = (house: 4010, street: "Highway 3", city: "Charlestown", state: "IN", zipCode: 47111, country: "USA")
+print(address)
+
+// unique values matter or quickly check if something exists
+let set = Set(["figma", "sketch", "adobe xd"])
+print(set.contains("sketch"))
+print(set.contains("photoshop"))
+
+// if order matters or need duplicates (most common)
+let pets = ["dog", "dog", "dog"]  
+
+// dictionaries
+let heights: [String: Int] = [
+    "Brandon": 60+11,
+    "Jessica": 60+2,
+    "Eleanor": 48+5,
+    "Haddie": 38
+]
+print(heights["Jessica"])
+
+let favColors = [
+    "Brandon": "Yellow",
+    "Jessica": "Teal",
+    "Eleanor": "Blue",
+    "Haddie": "Red"
+]
+print(favColors["Hal"]) // returns -&gt; nil if no default
+print(favColors["Hal", default: "???"])
+
+// empty collections
+var teams = [String: String]()
+teams["Paul"] = "Red"
+print(teams)
+
+var results = [Int]()
+var words = Set&lt;String&gt;()
+var numbers = Set&lt;Int&gt;()
+var scores = Dictionary&lt;String, Int&gt;()
+var results2 = Array&lt;Int&gt;()
+
+// enums
+// -- simple
+let f1 = "failure"
+let f2 = "failed"
+let f3 = "fail"
+
+enum Result {
+    case success
+    case failure
+}
+
+let f4 = Result.failure
+
+// -- associative
+enum Activity {
+    case bored
+    case running(desitination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+
+let talking = Activity.talking(topic: "football")
+let singing = Activity.singing(volume: 11)
+print(talking)
+print(singing)
+
+// -- raw
+enum Planet: Int {
+    case mercury
+    case venus
+    case earth
+    case mars
+}
+let earth = Planet(rawValue: 2)
+print(earth)
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 2161}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

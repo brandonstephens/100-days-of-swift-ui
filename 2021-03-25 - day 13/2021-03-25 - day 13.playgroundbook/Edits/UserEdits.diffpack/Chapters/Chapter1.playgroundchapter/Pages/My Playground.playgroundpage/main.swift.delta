@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// https://www.hackingwithswift.com/100/swiftui/13
+
+import UIKit
+
+// variables and constants
+
+var name = "Haddie"
+name = "Eleanor"
+
+let name2 = "Eleanor"
+//  name2 = "Haddie" // not allowed
+
+// types of data
+
+var name3: String
+name3 = "me"
+
+var num: Int
+num = 7_000_000
+
+var lat: Double
+lat = 36.6666667
+
+var long: Float
+long = -86.7833333333 // will trim
+
+var stayOut: Bool
+stayOut = true
+
+// inferance
+let age = 25
+
+var num2: Float = 2.5
+
+// operators
+
+var a = 10
+a = a + 1
+a = a - 1
+a = a * a
+
+var b = 10
+b += 10
+b -= 10
+
+var c = 1.1
+var d = 2.2
+var e = c + d
+
+var name5 = "Lady"
+var name6 = "Gaga"
+var both = name5 + " and " + name6
+
+c &gt; d
+c &gt;= 3
+c &gt; 4
+c &lt; 4
+name5 == "Lady"
+name5 != "Gaga"
+
+// interpolation
+
+"Your name is \(name5)"
+"Your name is " + name6
+
+"Your name is \(name5) \(name6) and you are at \(lat) \(long)"
+
+"Your age is \(age) and next year you will be \(age + 1)"
+
+// arrays
+
+var arr = [2,4,6,8]
+var songs: [String] = ["41", "34", "Crash"]
+
+songs[0]
+
+type(of: songs)
+
+// makes empty array
+var songs2 = [String]()
+
+var both1 = songs + songs2
+
+// dictionaries
+var person = [
+    "first": "Eleanor", 
+    "middle": "Marion", 
+    "last": "Stephens"
+]
+
+person["first"]
+person.first
+
+// conditional
+
+var action: String
+var person2 = "hater"
+
+if person2 == "hater" {
+    action = "hate"
+} else if person2 == "player" {
+    action = "player"
+}else {
+    action = "faker"
+}
+
+if true &amp;&amp; false {
+    print("poop")
+}
+
+if !false {
+    print("peepee")
+}
+
+// loops
+
+for i in 1 ... 10 {
+    print("\(i) x 10 is \(i * 10)")
+}
+
+for song in songs {
+    print("\(song)")
+}
+
+var count = 0
+
+while true {
+    print(count)
+    count += 1
+    if count == 555 {
+        break
+    }
+}
+
+// switch
+
+let live = 2
+
+switch live {
+case 0:
+    print("need more")
+case 1:
+    print("good")
+case 2:
+    print("nice")
+default:
+    print("shrug")
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1833}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
