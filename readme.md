@@ -3,10 +3,10 @@
 <https://www.hackingwithswift.com/100/swiftui>
 
 Started:  
-March 12, 2021
+**March 12, 2021**
 
 Completed:  
-TBD
+**TBD**
 
 These are my project files are here for reference.
 
