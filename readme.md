@@ -8,6 +8,6 @@ March 12, 2021
 Completed:  
 TBD
 
-These are my project files are here for reference. 
+These are my project files are here for reference.
 
 I don't recommend you use any of this code and encourage you to go through the course on your own.
